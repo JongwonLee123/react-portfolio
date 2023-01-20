@@ -1,6 +1,9 @@
 # React-Portfolio
 
-Deployed page: [LINK]()
+Deployed page: [LINK](https://jongwon-lee-portfolio.herokuapp.com/)
+
+![reactportfolio](https://user-images.githubusercontent.com/48977323/213594231-6a921cd5-a1b0-4a5e-ab40-0ea76e045b47.png)
+
 
 ## Description
 
