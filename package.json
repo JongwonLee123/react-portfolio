@@ -1,7 +1,7 @@
 {
     "name": "Jongwon-Lee-Portfolio",
     "version": "1.0.0",
-    "homepage": "https://JongwonLee123.github.io/react-portfolio",
+    "homepage": "https://jongwonlee123.github.io/react-portfolio/",
     "private": true,
     "dependencies": {
         "@testing-library/jest-dom": "^5.16.5",
