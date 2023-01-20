@@ -2,7 +2,7 @@ import React from "react";
 import Project from "./Project";
 
 import horiseon from "../assets/portfolio_images/horiseon.png";
-// import reactPortfolio from '../assets/portfolio_images/newReactPortfolio.png'
+import reactPortfolio from '../assets/portfolio_images/reactportfolio.png'
 import JATE from "../assets/portfolio_images/JATE.png";
 import socialNAPI from '../assets/portfolio_images/socialAPI.png';
 import blog_demo from "../assets/portfolio_images/funnyblogs.png";
@@ -14,13 +14,13 @@ import weatherDashboard from '../assets/portfolio_images/weatherdashboard.png'
 
 export default function Portfolio() {
   const compsciProjects = [
-    // {
-    //   title: "React portfolio",
-    //   imgLink: reactPortfolio,
-    //   extLink: "https://jongwon-lee-portfolio.herokuapp.com/",
-    //   ghLink: "https://github.com/JongwonLee123/react-portfolio",
-    //   altText: "Screenshot of react portfolio site",
-    // },
+    {
+       title: "React portfolio",
+       imgLink: reactPortfolio,
+       extLink: "https://jongwon-lee-portfolio.herokuapp.com/",
+       ghLink: "https://github.com/JongwonLee123/react-portfolio",
+       altText: "Screenshot of react portfolio site",
+    },
     {
       title: "PWA Text Editor",
       imgLink: JATE,
