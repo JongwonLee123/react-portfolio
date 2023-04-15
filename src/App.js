@@ -5,7 +5,7 @@ import Page from "./components/Page";
 
 function App() {
   const [darkMode, toggleDarkMode] = useState();
-  const [pages] = useState(["aboutMe", "portfolio", "contactMe", "resume"]);
+  const [pages] = useState(["aboutMe", "portfolio", "resume"]);
 
   const [currentPage, setCurrentPage] = useState(pages[0]);
 

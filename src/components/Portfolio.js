@@ -86,9 +86,12 @@ export default function Portfolio() {
     },
   ];
 
+  // const portfolio_text = `In this section, I present a selection of projects that demonstrate my skills and experience as a developer.`;
+
   return (
     <section className="flex justify-center" id="portfolioHighlights">
       <div className="xs:flex xs:flex-col md:grid rounded m-2 p-2 bg-slate-800/50 md:grid-cols-2 md:gap-4 items-center overflow-y-auto h-auto max-h-[75vh]">
+        
         {compsciProjects.map((project, index) => {
           return <Project project={project} key={index} />;
         })}

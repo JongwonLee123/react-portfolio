@@ -9,10 +9,10 @@ export default function Nav({pages, setCurrentPage, currentPage}) {
         <li onClick={() => setCurrentPage(pages[1]) } className={currentPage==='portfolio' ? 'font-extrabold': ''}>
           Portfolio
         </li>
-        <li onClick={() => setCurrentPage(pages[2])} className={currentPage==='contactMe' ? 'font-extrabold': ''}>
+        {/* <li onClick={() => setCurrentPage(pages[3])} className={currentPage==='contactMe' ? 'font-extrabold': ''}>
           Contact me
-        </li>
-        <li onClick={() => setCurrentPage(pages[3])} className={currentPage==='resume' ? 'font-extrabold': ''}>
+        </li> */}
+        <li onClick={() => setCurrentPage(pages[2])} className={currentPage==='resume' ? 'font-extrabold': ''}>
           Resume
         </li>
       </ul>
