@@ -1,13 +1,7 @@
 {
   "files": {
-<<<<<<< HEAD
     "main.css": "/react-portfolio/static/css/main.5457ad9d.css",
     "main.js": "/react-portfolio/static/js/main.a9d2ce89.js",
-=======
-    "main.css": "/react-portfolio/static/css/main.fe6ced37.css",
-    "main.js": "/react-portfolio/static/js/main.15744403.js",
-
->>>>>>> c0168e0756789a67e4eb23eefc4c2f0d31652a1f
     "static/media/horiseon.png": "/react-portfolio/static/media/horiseon.6b2343077bf58f9ae506.png",
     "static/media/github.png": "/react-portfolio/static/media/github.f42e5e810ad926dd4c40.png",
     "static/media/reactportfolio.png": "/react-portfolio/static/media/reactportfolio.87d12f3bae7cbf14ab30.png",
@@ -19,31 +13,14 @@
     "static/media/weatherdashboard.png": "/react-portfolio/static/media/weatherdashboard.e2d1c44c1230e1177634.png",
     "static/media/funnyblogs.png": "/react-portfolio/static/media/funnyblogs.51ba7b22cdd2a9afa0de.png",
     "static/media/socialAPI.png": "/react-portfolio/static/media/socialAPI.7e3187eb72502930a55c.png",
-<<<<<<< HEAD
     "static/media/Resume_2023.pdf": "/react-portfolio/static/media/Resume_2023.5940daabf1140183805e.pdf",
-=======
-
-    "static/media/Resume_2023.pdf": "/react-portfolio/static/media/Resume_2023.5940daabf1140183805e.pdf",
-
->>>>>>> c0168e0756789a67e4eb23eefc4c2f0d31652a1f
     "static/media/JATE.png": "/react-portfolio/static/media/JATE.565a1ee672b4539ac01f.png",
     "index.html": "/react-portfolio/index.html",
-<<<<<<< HEAD
     "main.5457ad9d.css.map": "/react-portfolio/static/css/main.5457ad9d.css.map",
     "main.a9d2ce89.js.map": "/react-portfolio/static/js/main.a9d2ce89.js.map"
   },
   "entrypoints": [
     "static/css/main.5457ad9d.css",
     "static/js/main.a9d2ce89.js"
-=======
-    "main.fe6ced37.css.map": "/react-portfolio/static/css/main.fe6ced37.css.map",
-
-    "main.15744403.js.map": "/react-portfolio/static/js/main.15744403.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.fe6ced37.css",
-    "static/js/main.15744403.js"
-
->>>>>>> c0168e0756789a67e4eb23eefc4c2f0d31652a1f
   ]
 }
