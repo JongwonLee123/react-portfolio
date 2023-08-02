@@ -11,9 +11,17 @@ import employee_tracker from '../assets/portfolio_images/employee_tracker.png'
 import readMeGenerator from '../assets/portfolio_images/readme.png'
 import old_portfolio from '../assets/portfolio_images/portfolio.png'
 import weatherDashboard from '../assets/portfolio_images/weatherdashboard.png'
+import easy_tracker from '../assets/portfolio_images/Welcome.png';
 
 export default function Portfolio() {
   const compsciProjects = [
+    {
+      title: "Easy Tracker",
+      imgLink: easy_tracker,
+      extLink: "",
+      ghLink: "https://github.com/JongwonLee123/Easy_Tracker",
+      altText: "Screenshot of react portfolio site",
+    },
     {
        title: "React portfolio",
        imgLink: reactPortfolio,

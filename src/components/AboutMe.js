@@ -3,24 +3,61 @@ import React from "react";
 import profilePhoto from "../assets/profile.jpg";
 
 export default function AboutMe() {
-  const bioContent = `Hello!
-  My name is Jongwon Lee, and I am a college student studying computer science at Ohlone College. I plan on transfering to a University in Fall 2024, and I am currently learning various programming languages and software development tools to become a proficient developer.
+  const bioContent = `My name is Jongwon Lee, and I am a college student studying computer science at Ohlone College. I plan on transferring to a University in Fall 2024, and I am currently learning various programming languages and software development tools to become a proficient developer.
 
-  In my coursework, I have gained experience in C++ programming languages, as well as worked on various web development projects from UC Berkeley's Extension Bootcamp. 
+  In my coursework, I have gained experience in C++ programming languages and Java, as well as worked on various web development projects from UC Berkeley's Extension Bootcamp. 
   
-  My goal is to become a software developer and apply my skills and knowledge to develop innovative software solutions. I am persistent, detail-oriented, and have a strong desire to learn and stay up-to-date with the latest technology trends. I believe that my technical skills, experience, and personal qualities make me a good fit for a software developer role in any industry."`;
+  My goal is to become a software developer and apply my skills and knowledge to develop innovative software solutions. I am persistent, detail-oriented, and have a strong desire to learn and stay up-to-date with the latest technology trends. I believe that my technical skills, experience, and personal qualities make me a good fit for a software developer role in any industry.
+  
+  Feel free to navigate through my portfolio in the top right hand corner.
+  `;
+
+  const hobbiesContent = `I have a variety of hobbies that I enjoy in my free time. Some of my hobbies include:
+
+  - Playing basketball
+  - Playing video games and exploring different game mechanics.
+  - Watching movies and dramas
+  `;
 
   return (
-    <section className="flex place-content-center" id="aboutMe">
-      <div className="rounded bg-slate-800/50 m-2 p-2 w-fit block md:flex md:flex-row md:items-center">
-        <img
-          src={profilePhoto}
-          className="rounded-full ring-8 m-4 ring-slate-800 float-left max-w-[125px] md:max-w-[300px]"
-          alt="profile"
-        ></img>
-        <p className="m-6 whitespace-pre-line max-w-[500px] text-white font-bold font-sans">
+    <section className="pageBackground flex flex-col items-center">
+       {/* Image and Text Container */}
+      <div className="rounded bg-slate-800/60 m-10 p-10 w-fit block md:flex md:flex flex flex-col items-center" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}>
+        {/* Image Container */}
+        <div
+          className="rounded-full overflow-hidden ring-8 m-4 ring-slate-800 w-32 h-32 md:w-48 md:h-48"
+          style={{ maxWidth: "300px", maxHeight: "300px" }}
+        >
+          <img
+            src={profilePhoto}
+            className="object-cover w-full h-full"
+            alt="profile"
+          />
+        </div>
+
+        {/* Text below the image */}
+        <p className="text-white font-bold font-sans text-lg md:text-xl text-center mt-4 md:mt-0 md:w-500">
+          Welcome to my portfolio! Feel free to navigate the pages.
+        </p>
+      </div>
+
+
+      {/* About Me Content Container */}
+      <div className="bg-black bg-opacity-40 rounded p-4 md:p-10 md:flex md:flex-col md:justify-center items-center" id="aboutMe" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}>
+        <h2 className="m-6 whitespace-pre-line text-2xl font-bold text-white mb-4">About Me</h2>
+        <p className="m-6 whitespace-pre-line max-w-[500px] text-white font-bold font-sans text-lg md:text-xl shadow-sm">
           {bioContent}
         </p>
+      </div>
+
+      {/* Hobbies Content Container */}
+      <div className="rounded bg-slate-800/50 m-10 p-10 w-fit block md:flex md:flex-row md:items-start justify-center" id="hobbies" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}>
+        <div>
+          <h2 className="text-2xl font-bold text-white mb-4 text-center">Hobbies</h2>
+          <p className="m-6 whitespace-pre-line max-w-[500px] text-white font-bold font-sans text-lg md:text-xl shadow-sm">
+            {hobbiesContent}
+          </p>
+        </div>
       </div>
     </section>
   );
