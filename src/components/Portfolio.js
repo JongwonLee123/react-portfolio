@@ -2,7 +2,7 @@ import React from "react";
 import Project from "./Project";
 
 import horiseon from "../assets/portfolio_images/horiseon.png";
-import reactPortfolio from '../assets/portfolio_images/reactportfolio.png'
+import reactPortfolio from '../assets/portfolio_images/react.png'
 import JATE from "../assets/portfolio_images/JATE.png";
 import socialNAPI from '../assets/portfolio_images/socialAPI.png';
 import blog_demo from "../assets/portfolio_images/funnyblogs.png";

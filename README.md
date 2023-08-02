@@ -2,7 +2,7 @@
 
 Deployed page: [LINK](https://jongwonlee123.github.io/react-portfolio/)
 
-![reactportfolio](./src/assets/portfolio_images/reactportfolio.png)
+![reactportfolio](./src/assets/portfolio_images/react.png)
 
 
 ## Description
