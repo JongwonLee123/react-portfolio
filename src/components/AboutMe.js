@@ -2,6 +2,13 @@ import React from "react";
 // import logo from '../logo.svg'
 import profilePhoto from "../assets/profile.jpg";
 
+
+/*
+USE THIS COMMAND TO DO GH-PAGES
+
+npx gh-pages -b gh-pages -d build -r "https://github.com/JongwonLee123/react-portfolio"
+*/
+
 export default function AboutMe() {
   const bioContent = `My name is Jongwon Lee, and I am a college student studying computer science at Ohlone College. I plan on transferring to a University in Fall 2024, and I am currently learning various programming languages and software development tools to become a proficient developer.
 
