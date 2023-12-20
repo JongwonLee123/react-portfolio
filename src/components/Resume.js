@@ -1,6 +1,6 @@
 import {React, useEffect, useState} from "react";
 import Iframe from 'react-iframe'
-import resumePDF from "../assets/Resume_2023.pdf";
+import resumePDF from "../assets/resume_2023_2024.pdf";
 
 export default function Resume() {
   const [pdfSource, setpdfSource] = useState("") 

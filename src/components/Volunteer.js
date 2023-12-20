@@ -11,22 +11,22 @@ import React from "react";
 export default function Volunteer() {
    const text_1 = `Ohlone Engineering Society is a club at Ohlone College aimed to help bring together students of different 
    majors and work on skills that will appear in future careers. After joining OES, I became involved in the clubs affairs and 
-   involved myself in club projects. Later, I joined the leadership team by becoming the ICC representative of the club. With the next semester of 2023-2024, 
-   I am becoming the secretary of OES.
+   involved myself in club projects. I joined the leadership team by becoming the ICC representative of the club. Later, 
+   I became the secretary of the club, scheduling 2-hour weekly meetings, composing meeting notes, and collaborating with 
+   other organizations
    `;
    const text_2 = `The Inter-Club Council plan out club events and vote in new clubs. During meetings, I would be representing OES, deciding on any events
    , and informing the leadership team of any important events or deadlines. 
    `;
    const text_3 = `Super Saturday is an event that introduces some of Ohlone's different departments. Before the event, I helped code an Arduino cart to navigate
    a given path of black tape. To do so, I utilized the infrared sensors on the cart and designed the code to make corrections depending on the situation the cart was
-   in with the pathing. During the event, I demoed the cart and described how it was made. Also, I helped people know more about the STEM department, especially Computer
-   Science.
+   in with the pathing.
    `;
-   const text_4 = `Club Rush is an event where new students get to know what clubs are on campus. I volunteered to represent OES and introduced what OES worked on and 
-   how the club was. 
+   const text_4 = `Club Rush aims in helping students become involved with each other by joining new clubs. I volunteered to represent OES and helped new students learn about 
+   OES's projects and the workshops held to prepare students. 
    `;
    const leader = [
-      { name: "Ohlone Engineering Society", description: text_1 },
+      { name: "Ohlone Engineering Society Secretary", description: text_1 },
       { name: "ICC Representative", description: text_2 },
    ];
    const volunteer = [

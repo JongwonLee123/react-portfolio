@@ -10,20 +10,18 @@ npx gh-pages -b gh-pages -d build -r "https://github.com/JongwonLee123/react-por
 */
 
 export default function AboutMe() {
-  const bioContent = `My name is Jongwon Lee, and I am a college student studying computer science at Ohlone College. I plan on transferring to a University in Fall 2024, and I am currently learning various programming languages and software development tools to become a proficient developer.
+  const bioContent = `My name is Jongwon Lee, and I am a sophmore college student studying computer science at Ohlone College. I plan on transferring to a CA University in Fall 2024, and I am currently learning various programming languages and software development tools to become a proficient developer.
 
-  In my coursework, I have gained experience in C++ programming languages and Java, as well as worked on various web development projects from UC Berkeley's Extension Bootcamp. 
+  In my coursework from Ohlone college, I have gained 2 years of experience in C++ programming and Java, as well as worked on various web development projects from UC Berkeley's Extension Bootcamp. 
   
   My goal is to become a software developer and apply my skills and knowledge to develop innovative software solutions. I am persistent, detail-oriented, and have a strong desire to learn and stay up-to-date with the latest technology trends. I believe that my technical skills, experience, and personal qualities make me a good fit for a software developer role in any industry.
-  
-  Feel free to navigate through my portfolio in the top right hand corner.
   `;
 
   const hobbiesContent = `I have a variety of hobbies that I enjoy in my free time. Some of my hobbies include:
 
-  - Playing basketball
-  - Playing video games and exploring different game mechanics.
-  - Watching movies and dramas
+  - Enjoy reading texts on social issues, history, and science
+  - Play 5v5 basketball games at the gym
+  - Engaging in video games and online communities
   `;
 
   return (
@@ -43,8 +41,8 @@ export default function AboutMe() {
         </div>
 
         {/* Text below the image */}
-        <p className="text-white font-bold font-sans text-lg md:text-xl text-center mt-4 md:mt-0 md:w-500">
-          Welcome to my portfolio! Feel free to navigate the pages.
+        <p className="text-white max-w-[550px] font-bold font-sans text-lg md:text-xl text-center mt-4 md:mt-0 md:w-500">
+          Welcome to my portfolio! To navigate arround, click the different tabs at the top right hand corner. For my GitHub and LinkedIn, they are located at the bottom of the page or on my resume.
         </p>
       </div>
 

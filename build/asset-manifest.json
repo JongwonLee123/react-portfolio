@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.66c8a6a1.css",
-    "main.js": "/react-portfolio/static/js/main.dddea35a.js",
+    "main.js": "/react-portfolio/static/js/main.99847c6d.js",
     "static/media/horiseon.png": "/react-portfolio/static/media/horiseon.6b2343077bf58f9ae506.png",
+    "static/media/resume_2023_2024.pdf": "/react-portfolio/static/media/resume_2023_2024.fc603fb295d86d63817d.pdf",
     "static/media/github.png": "/react-portfolio/static/media/github.f42e5e810ad926dd4c40.png",
-    "static/media/reactportfolio.png": "/react-portfolio/static/media/reactportfolio.87d12f3bae7cbf14ab30.png",
     "static/media/profile.jpg": "/react-portfolio/static/media/profile.7c12bad5a7073b0e11ac.jpg",
+    "static/media/react.png": "/react-portfolio/static/media/react.73dbb5bcec516da82694.png",
     "static/media/portfolio.png": "/react-portfolio/static/media/portfolio.737f0ebc661a9f0d4bec.png",
     "static/media/readme.png": "/react-portfolio/static/media/readme.27bb785b5acc656f014a.png",
     "static/media/employee_tracker.png": "/react-portfolio/static/media/employee_tracker.09dacdd637e70c8aa390.png",
@@ -14,8 +15,6 @@
     "static/media/funnyblogs.png": "/react-portfolio/static/media/funnyblogs.51ba7b22cdd2a9afa0de.png",
     "static/media/socialAPI.png": "/react-portfolio/static/media/socialAPI.7e3187eb72502930a55c.png",
     "static/media/java.png": "/react-portfolio/static/media/java.86407ffa56ebe1f70b6a.png",
-    "static/media/react.png": "/react-portfolio/static/media/react.73dbb5bcec516da82694.png",
-    "static/media/Resume_2023.pdf": "/react-portfolio/static/media/Resume_2023.5940daabf1140183805e.pdf",
     "static/media/figma.png": "/react-portfolio/static/media/figma.b08682c3a0753f59813f.png",
     "static/media/cplus.png": "/react-portfolio/static/media/cplus.3f8430b31b0960aae7e0.png",
     "static/media/JATE.png": "/react-portfolio/static/media/JATE.565a1ee672b4539ac01f.png",
@@ -23,10 +22,10 @@
     "static/media/firebase.png": "/react-portfolio/static/media/firebase.a4156cb67d6d0676cffc.png",
     "index.html": "/react-portfolio/index.html",
     "main.66c8a6a1.css.map": "/react-portfolio/static/css/main.66c8a6a1.css.map",
-    "main.dddea35a.js.map": "/react-portfolio/static/js/main.dddea35a.js.map"
+    "main.99847c6d.js.map": "/react-portfolio/static/js/main.99847c6d.js.map"
   },
   "entrypoints": [
     "static/css/main.66c8a6a1.css",
-    "static/js/main.dddea35a.js"
+    "static/js/main.99847c6d.js"
   ]
 }
